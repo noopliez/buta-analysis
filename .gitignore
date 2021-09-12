@@ -1,3 +1,19 @@
+# ignore common files and directories
+.idea/
+.vscode/
+*.iml
+.history
+.DS_Store
+
+# ignore crawled directory because of raw data
+crawled/
+
+# ignore notebook checkpoints
+.ipynb_checkpoints
+
+# ignore .jl files
+*.jl
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
